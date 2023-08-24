@@ -55,7 +55,7 @@ typedef struct instruction_s
 void f_push(stack_t **head, unsigned int current);
 void f_pall(stack_t **head, unsigned int current);
 void f_queue(stack_t **head, unsigned int current);
-void addqueue(stack_t **head, int num);
+void addqueue(stack_t **head, int n);
 void f_stack(stack_t **head, unsigned int current);
 void free_stack(stack_t *head);
 void addnode(stack_t **head, int n);
